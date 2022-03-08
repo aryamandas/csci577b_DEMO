@@ -22,7 +22,7 @@ def sum():
 	num2 = input("Enter the second number: ")
 
 	# Calculate the sum
-	sum = num1 + num2
+	sum = float(num1) + float(num2)
 
 	# Display the sum
 	print("The sum of {} and {} is {}.".format(num1, num2, sum))
